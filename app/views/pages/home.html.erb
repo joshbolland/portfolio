@@ -1,30 +1,9 @@
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= asset_path 'banner.jpg' %>) ;">
   <div class="container">
+    <%= image_tag('josh.jpg', class: "avatar")%>
     <h1>Josh Bolland</h1>
     <p>Full Stack Web Developer</p>
-    <div id="social-media">
-        <ul class="list-inline">
-          <li>
-            <%= link_to "https://github.com/joshbolland", target: "_blank", class: "social-button" do %>
-              <i class="fab fa-github"></i>
-            <% end %>
-          </li>
-          <li>
-            <%= link_to "https://linkedin.com/in/joshuabolland", target: "_blank", class: "social-button" do %>
-              <i class="fab fa-linkedin"></i>
-            <% end %>
-          </li>
-          <li>
-            <%= link_to "mailto:jjm.bolland@gmail.com/", target: "_blank", class: "social-button" do %>
-              <i class="fas fa-envelope"></i>
-            <% end %>
-          </li>
-          <li>
-            <%= link_to "https://twitter.com/joshbolland95", target: "_blank", class: "social-button" do %>
-              <i class="fab fa-twitter"></i>
-            <% end %>
-          </li>
-        </ul>
-      </div>
+    <%= render 'social' %>
+    <%= link_to 'My Projects', "https://github.com/joshbolland", class: 'btn btn-projects'%>
   </div>
 </div>
