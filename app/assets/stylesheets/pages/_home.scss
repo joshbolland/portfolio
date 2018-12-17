@@ -1,22 +1,48 @@
 // Specific CSS for your home-page
-#projects {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: #F4F4F4;
-  h1 {
-    color: #303030;
-    text-align: center;
-    padding-bottom: 50px;
-    font-weight: bolder;
-  }
-}
-
 #about {
+  padding-top: 50px;
+
   h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
     color: #225277;
+    padding: 20px 0px;
   }
+}
+
+#projects {
+  margin-bottom: 50px;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #225277;
+    padding: 25px 0px;
+  }
+}
+
+.download {
+  margin: 25px 0px;
+}
+
+.btn-dwn {
+  background-color: rgba(0,0,0,0.0);
+  color: #FDFDFD;
+  border: 1px solid #FDFDFD;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+}
+
+.btn-dwn:hover {
+  color: #d7d7d7;
+  border: 1px solid #d7d7d7;
+  text-decoration: none;
+}
+
+.btn-dwn:visited {
+  color: inherit;
 }

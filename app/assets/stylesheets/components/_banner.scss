@@ -17,13 +17,43 @@
     color: #FDFDFD;
   }
 
-  .social-button {
+  #github-button {
     color: #FDFDFD;
     transition: all 0.2s ease;
   }
 
-  .social-button:hover {
+  #github-button:hover {
     color: #54BCEC;
+    transition: all 0.2s ease;
+  }
+
+  #linkedin-button {
+    color: #FDFDFD;
+    transition: all 0.2s ease;
+  }
+
+  #linkedin-button:hover {
+    color: #54BCEC;
+    transition: all 0.2s ease;
+  }
+
+  #mail-button {
+    color: #FDFDFD;
+    transition: all 0.2s ease;
+  }
+
+  #mail-button:hover {
+    color: #DD5555;
+    transition: all 0.2s ease;
+  }
+
+  #twitter-button {
+    color: #FDFDFD;
+    transition: all 0.2s ease;
+  }
+
+  #twitter-button:hover {
+    color: #1C9CF4;
     transition: all 0.2s ease;
   }
 
