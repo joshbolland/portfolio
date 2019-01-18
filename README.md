@@ -1,1 +1,6 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Josh Bolland | Full Stack Web Developer on the hunt for exciting career opportunities!
+
+Get in touch:
+
+jjm.bolland@gmail.com
++447960992645
