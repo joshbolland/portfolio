@@ -24,6 +24,27 @@
   }
 }
 
+#contact {
+  margin-bottom: 50px;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #225277;
+    padding: 25px 0px;
+  }
+  a {
+  text-decoration: none;
+  color: #303030;
+  }
+
+  a:hover {
+  text-decoration: none;
+  color: black;
+  }
+}
+
 .download {
   margin: 25px 0px;
 }
