@@ -1,8 +1,11 @@
 import Typed from 'typed.js';
 
-var options = {
-  strings: ["Full Stack Developer"],
-  typeSpeed: 50
+function loadDynamicBannerText() {
+  new Typed('#developer', {
+    strings: ["Full Stack Developer"],
+    typeSpeed: 40,
+    loop: false
+  });
 }
 
-var typed = new Typed("#developer", options);
+export { loadDynamicBannerText };
