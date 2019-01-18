@@ -1,3 +1,3 @@
 import "bootstrap";
-import { loadDynamicBannerText } from '../components/typed';
+import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText();
