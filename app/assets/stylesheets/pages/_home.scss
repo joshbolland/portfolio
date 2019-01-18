@@ -67,3 +67,11 @@
 .btn-dwn:visited {
   color: inherit;
 }
+
+@media (max-width: 768px) {
+
+  [class*="col-xs-12"] {
+      margin-bottom: 15px;
+  }
+
+}
