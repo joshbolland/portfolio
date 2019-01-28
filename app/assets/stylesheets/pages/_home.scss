@@ -26,6 +26,7 @@
 
 #contact {
   margin-bottom: 50px;
+  margin-top: -50px;
   h1 {
     display: flex;
     align-items: center;
@@ -79,3 +80,29 @@
   }
 
 }
+
+.source-code {
+  transition: background 0.2s ease;
+  color: #242038;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding:8px 8px;
+  border-radius: 2px;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.source-code:hover {
+  background: #242038;
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
