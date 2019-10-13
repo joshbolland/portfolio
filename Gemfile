@@ -6,6 +6,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'sassc-rails'
+gem 'rails', '5.2.1'
 
 gem 'redis'
 
@@ -16,7 +17,6 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'jquery-rails'
-gem 'rails', '5.2.1'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
