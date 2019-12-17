@@ -5,6 +5,7 @@ gem 'bootsnap'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
+gem 'sass'
 gem 'sassc-rails'
 gem 'rails', '5.2.1'
 
